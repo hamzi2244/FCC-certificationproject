@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Free Code Camp certification</title>
+</head>
+
+<body>
+    <h1 id="title">Mohammad Hamza coding survey</h1>
+    <p id="description">Thank you for taking time to help me improve my Service</p>
+    <div class="form">
+        <form action="submit" id="survey-form">
+
+
+            <fieldset class="credentials"> <label for="name" id="name-label">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" name="name" id="email" placeholder="Enter your Email" required>
+
+                <label for="number" id="number-label">Age(optional)</label>
+                <input type="number" name="age" placeholder="Age" id="number" max="120" min="20">
+                
+                <label for="dropdown">Which option best describes your reviews of my service?</label>
+            <select name="" id="dropdown">
+                <option value="0">Select remarks</option>
+                <option value="1">Good</option>
+                <option value="2">Very Good</option>
+                <option value="3">Excellent</option>
+            </select>
+            
+            
+            </fieldset>
+            <fieldset class="dropdowns">
+                <label for="select">Would you reccomend me to other clients?</label>
+                <label name="reccomend">Definitely<input type="radio" name="select" value="1"></label> 
+               <label name="reccomend">Maybe <input type="radio" name="select" value="2"></label> 
+                <label name="reccomend">Not Sure<input type="radio" name="select" value="3"></label>
+    
+                <label for="dropdown2">Which thing you like the most about working with me?</label>
+                <select name="" id="dropdown2">
+                    <option value="0">Select an option</option>
+                    <option value="1">Punctuallity</option>
+                    <option value="2">Desigining Skills</option>
+                    <option value="3">Backend skills</option>
+                    <option value="4">Work Quality</option>
+                </select>
+    
+                <label for="improvement">What improvement would you reccomend?</label>
+               <label name="improvement">Frontend Development <input type="checkbox" name="improvement" id="" value="1"></label>
+               <label name="improvement">Backend Development <input type="checkbox" name="improvement" id="" value="2"></label>
+               <label name="improvement">Design <input type="checkbox" name="improvement" id="" value="3"></label>
+               <label name="improvement">Delivery <input type="checkbox" name="improvement" id="" value="4"></label>
+               <label name="improvement">Communication <input type="checkbox" name="improvement" id="" value="5"></label>
+                
+
+               <label for="comments">Anny Coments or suggesstions</label>
+               <textarea name="" id="comments" cols="30" rows="10"
+                   placeholder="Add your valueable Comments here"></textarea>
+                
+
+                   <button id="submit">submit</button>
+   
+            
+                </fieldset>
+
+
+
+
+
+           
+
+           
+
+           
+
+            
+
+        </form>
+    </div>
+</body>
+
+</html>

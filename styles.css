@@ -1,0 +1,104 @@
+html{ background-image: url("./pexels-photo-303383.jpeg" );
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.form{
+    height: auto;
+    width: 80%;
+    background-color:rgb(77,103,191,50%);
+    align-items: center;
+    margin: auto;
+}
+h1,p{
+    text-align: center;
+    color:rgb(255, 255, 255,50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.credentials{
+    border: none;
+}
+.credentials input{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+
+}
+label {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 25px;
+    
+    margin:0.5rem 0.5rem ;
+    display: flex;
+}
+select{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    font-size: 25px;
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+}
+.dropdowns{
+    border: none;
+}
+.dropdowns input[name="select"]{
+    display: block;
+    
+}
+
+.dropdowns label[name="reccomend"]{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dropdowns input[type="checkbox"]{
+    display: block;
+    
+}
+.dropdowns label[name="improvement"]{
+    font-size: 16px;
+    font-weight: bold;
+}
+textarea{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius:1em ;
+}
+
+button{
+    margin: 10px auto;
+    background-color: #495057;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 2em;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
